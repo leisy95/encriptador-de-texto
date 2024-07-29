@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <script ></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <span class="header-nombre"><strong>Leisy /> </strong></span>
+        </nav>
+    </header>
+    <main class="contenido">
+        <section class="contenido-texto">
+            <h2>Encriptar o Desencriptador de texto</h2>
+            <textarea id="texto" name="texto" rows="12" cols="30" placeholder="Ingrese el texto aquí"></textarea>
+            <strong id="mayus-acentos"><i class="fas fa-info-circle"></i> Solo letras minúsculas y sin acentos</strong>
+            <div class="contenido-botones">
+                <button class="contenido-enlaces-boton" onclick="encriptarTexto()">Encriptar</button>
+                <button class="contenido-enlaces-boton" onclick="desencriptarTexto()" id="desencriptarr" disabled>Desencriptar</button>
+            </div>
+        </section>
+        <div class="contenido-texto-encriptado">
+            <img src="./imagenes/security.png" alt="Imagen security">
+            <div class="contenido-texto-alert">
+                <h2><Strong>Ningun mensaje fue encontrado</Strong></h2> <br>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>© Leisy - 2024</p>
+    </footer>
+
+    <script src="encriptador.js"></script>
+</body>
+
+</html>
