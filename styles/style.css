@@ -167,7 +167,7 @@ img {
     }
 }
 
-@media (max-width: 5px) {
+@media (max-width: 510px) {
 
     .contenido {
         padding: 30px;
