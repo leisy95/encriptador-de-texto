@@ -160,9 +160,7 @@ function desencriptarTexto() {
 function ajustarAnchoSegunPantalla(elemento) {
     var screenWidth = window.innerWidth;
 
-    if (screenWidth <= 980) {
-        elemento.style.width = '450px';
-    } else {
-        elemento.style.width = '400px';
+    if (screenWidth <= 560) {
+        elemento.style.width = '350px';
     }
 }
