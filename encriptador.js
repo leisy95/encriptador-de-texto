@@ -164,7 +164,7 @@ function ajustarAnchoSegunPantalla(elemento) {
         elemento.style.width = '350px';
     }else{
         if (screenWidth <= 420) {
-            elemento.style.width = '250px';
+            elemento.style.width = '230px';
         }
     }
 }
