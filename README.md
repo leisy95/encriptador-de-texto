@@ -31,6 +31,15 @@ Demostración de funciones y aplicaciones
    
 ![interfaz-texto-desencriptado](https://github.com/user-attachments/assets/b1180d62-cf3f-4c35-958e-09113b377dc8)
 
+7. MENSAJE DE FINALIZACICÓN DE ALURA ENCRIPTADO
+   
+   fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y haibenterrlober cobernclufatimesdober cobern enterximestober
+   
+9. MENSAJE DESENCRIPTADO
+
+![mensaje de finalizacion](https://github.com/user-attachments/assets/f5e1a63a-8a31-4269-87fa-03b07848dc82)
+
+
 Tecnologias utilizadas
 1. HTML5
 2. Css
