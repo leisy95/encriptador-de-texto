@@ -161,6 +161,10 @@ function ajustarAnchoSegunPantalla(elemento) {
     var screenWidth = window.innerWidth;
 
     if (screenWidth <= 530) {
-        elemento.style.width = '50%';
+        elemento.style.width = '350px';
+    }else{
+        if (screenWidth <= 420) {
+            elemento.style.width = '250px';
+        }
     }
 }

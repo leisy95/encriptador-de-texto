@@ -167,7 +167,7 @@ img {
     }
 }
 
-@media (max-width: 510px) {
+@media (max-width: 530px) {
 
     .contenido {
         padding: 30px;
@@ -190,6 +190,10 @@ img {
     .contenido-botones {
         flex-direction: column;
         align-items: center;
+    }
+
+    .contenido-enlaces-boton {
+        width: 100%;
     }
 }
 
