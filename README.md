@@ -1,5 +1,7 @@
 Desafio de alura latam 
 
+ENCRIPTADOR Y DESENCRIPTADOR DE TEXTO
+
 ¿Qué hace el proyecto?
 Permite al usuario encriptar o desencriptar un texto.
 
